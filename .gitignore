@@ -1,0 +1,7 @@
+data
+.venv
+dataset1
+dataset2
+robofolow_pistols/*
+runs
+roboflow_pistols
