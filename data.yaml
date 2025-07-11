@@ -1,0 +1,5 @@
+names:
+- gun
+nc: 1
+train: /Users/amogharya/Documents/gun detection multiple ds/data/train/images
+val: /Users/amogharya/Documents/gun detection multiple ds/data/val/images
