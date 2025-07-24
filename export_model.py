@@ -10,7 +10,7 @@ m = YOLO(MODEL_PT)
 
 # 1) Plain ONNX for Pi CPU/GPU path
 onnx_path = OUT_DIR / "best_nano.onnx"
-m.export(format="onnx", imgsz=IMGSZ, opset=12, simplify=True, dynamic=False)
+m.export(format="onnx", imgsz=IMGSZ, opset=18, simplify=True, dynamic=False)
 (OUT_DIR / "best.onnx").rename(onnx_path)  # Ultralytics names it 'best.onnx'
 
 # 2) IMX500 package (runs INSIDE the sensor)
